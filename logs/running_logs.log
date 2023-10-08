@@ -1,0 +1,696 @@
+[2023-09-30 20:25:30,032: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 20:25:30,043: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 20:25:30,045: INFO: common: created directory at: artifacts]
+[2023-09-30 20:25:30,047: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-30 20:25:33,550: INFO: 1170291011: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E06:29D403:5714A:A4C83:651836D6
+Accept-Ranges: bytes
+Date: Sat, 30 Sep 2023 14:55:31 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21744-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696085731.673965,VS0,VE1028
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bc2b179c85b912ccc3955b757b8c7056de288ae3
+Expires: Sat, 30 Sep 2023 15:00:31 GMT
+Source-Age: 1
+
+]
+[2023-09-30 20:33:32,545: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-09-30 20:33:32,578: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 20:33:32,599: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 20:33:32,599: INFO: common: created directory at: artifacts]
+[2023-09-30 20:33:32,599: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-30 20:33:41,241: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E06:29D403:5714A:A4C83:651836D6
+Accept-Ranges: bytes
+Date: Sat, 30 Sep 2023 15:03:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21723-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696086214.951814,VS0,VE277
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ec4e87acbbfeabcbeb775a86fb01382f23b40b99
+Expires: Sat, 30 Sep 2023 15:08:34 GMT
+Source-Age: 0
+
+]
+[2023-09-30 20:33:42,043: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-09-30 21:41:56,086: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 21:41:56,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 21:41:56,101: INFO: common: created directory at: artifacts]
+[2023-09-30 21:41:56,101: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-09-30 21:42:14,558: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-09-30 21:46:06,224: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-09-30 21:46:06,227: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 21:46:06,232: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 21:46:06,235: INFO: common: created directory at: artifacts]
+[2023-09-30 21:46:06,237: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-30 21:46:10,396: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D484:2A038B:5F772:B10F8:651849C7
+Accept-Ranges: bytes
+Date: Sat, 30 Sep 2023 16:16:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21727-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696090568.773873,VS0,VE902
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e17a12b26925c270e26544fd541facc2dfc29e5e
+Expires: Sat, 30 Sep 2023 16:21:08 GMT
+Source-Age: 1
+
+]
+[2023-09-30 21:46:10,926: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-09-30 21:46:10,926: INFO: main: *******************]
+[2023-09-30 21:46:10,927: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-09-30 21:46:10,929: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 21:46:10,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 21:46:10,939: INFO: common: created directory at: artifacts]
+[2023-09-30 21:46:10,941: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-09-30 21:46:11,639: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-09-30 21:46:11,997: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-09-30 21:55:11,224: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 21:55:11,230: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 21:55:11,231: INFO: common: created directory at: artifacts]
+[2023-09-30 21:55:11,234: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-09-30 21:55:11,234: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-09-30 22:07:09,642: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 22:07:09,649: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 22:07:09,650: INFO: common: created directory at: artifacts]
+[2023-09-30 22:07:09,650: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-09-30 22:07:09,650: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-09-30 22:10:07,465: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 22:10:07,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 22:10:07,473: INFO: common: created directory at: artifacts]
+[2023-09-30 22:10:07,476: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-09-30 22:10:07,478: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-09-30 22:12:40,715: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-09-30 22:12:40,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-09-30 22:12:40,719: INFO: common: created directory at: artifacts]
+[2023-09-30 22:12:40,727: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-09-30 22:12:40,729: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 14:43:51,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 14:43:51,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 14:43:52,000: INFO: common: created directory at: artifacts]
+[2023-10-08 14:43:52,002: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 14:45:59,085: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 14:45:59,090: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 14:45:59,093: INFO: common: created directory at: artifacts]
+[2023-10-08 14:45:59,095: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 14:47:41,706: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 14:47:41,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 14:47:41,714: INFO: common: created directory at: artifacts]
+[2023-10-08 14:47:41,716: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 14:51:07,409: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 14:51:07,415: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 14:51:07,417: INFO: common: created directory at: artifacts]
+[2023-10-08 14:51:07,419: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 14:51:14,362: INFO: 1170291011: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6566:24702F:131E11:17F817:65227485
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 09:21:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1235-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696756870.082648,VS0,VE817
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e86021900a44cbac09eb51492ebc5b9aa8978094
+Expires: Sun, 08 Oct 2023 09:26:10 GMT
+Source-Age: 1
+
+]
+[2023-10-08 15:18:15,322: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 15:18:15,374: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 15:18:15,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 15:18:15,387: INFO: common: created directory at: artifacts]
+[2023-10-08 15:18:15,387: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 15:18:21,846: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DC7E:D6567:441C2B:4C6371:65227AE1
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 09:48:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4744-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696758498.969161,VS0,VE666
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b619679c3da4ee4e5ef652245843f23129f7d7e6
+Expires: Sun, 08 Oct 2023 09:53:18 GMT
+Source-Age: 0
+
+]
+[2023-10-08 15:18:22,285: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-08 15:46:12,223: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 15:46:12,236: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 15:46:12,236: INFO: common: created directory at: artifacts]
+[2023-10-08 15:46:12,243: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-08 15:46:13,605: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-08 16:09:50,338: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 16:09:50,342: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 16:09:50,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 16:09:50,350: INFO: common: created directory at: artifacts]
+[2023-10-08 16:09:50,353: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 16:09:57,388: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DC7E:D6567:441C2B:4C6371:65227AE1
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 10:39:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4724-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696761594.871929,VS0,VE333
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4f5967579f0ed4dc9bdd8ee64317da98ed9cf85a
+Expires: Sun, 08 Oct 2023 10:44:54 GMT
+Source-Age: 0
+
+]
+[2023-10-08 16:09:57,905: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-08 16:09:57,906: INFO: main: *******************]
+[2023-10-08 16:09:57,906: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-08 16:09:57,908: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 16:09:57,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 16:09:57,913: INFO: common: created directory at: artifacts]
+[2023-10-08 16:09:57,917: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-08 16:09:58,661: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-08 16:09:59,116: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-08 16:33:17,761: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 16:33:17,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 16:33:17,769: INFO: common: created directory at: artifacts]
+[2023-10-08 16:33:17,777: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 16:33:17,781: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 16:55:44,720: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 16:55:44,730: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 16:55:44,734: INFO: common: created directory at: artifacts]
+[2023-10-08 16:55:44,736: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 16:55:44,736: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 17:56:56,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 17:56:56,759: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 17:56:56,761: INFO: common: created directory at: artifacts]
+[2023-10-08 17:56:56,765: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 17:56:56,767: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 17:57:56,196: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 17:57:56,202: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 17:57:56,205: INFO: common: created directory at: artifacts]
+[2023-10-08 17:57:56,207: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 17:57:56,210: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 17:57:56,212: INFO: common: created directory at: artifacts\training]
+[2023-10-08 18:06:49,856: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 18:06:49,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:06:49,860: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:06:49,860: INFO: common: created directory at: artifacts]
+[2023-10-08 18:06:49,867: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 18:09:13,285: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 18:09:13,287: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:09:13,287: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:09:13,293: INFO: common: created directory at: artifacts]
+[2023-10-08 18:09:13,294: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 18:09:16,009: ERROR: main: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>]
+Traceback (most recent call last):
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1425, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\DELL\.conda\envs\chicken\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\DELL\.conda\envs\chicken\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\DELL\.conda\envs\chicken\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\users\dell\documents\data science\projects\chicken_disease_classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\dell\documents\data science\projects\chicken_disease_classification\src\cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+[2023-10-08 18:09:47,698: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 18:09:47,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:09:47,700: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:09:47,700: INFO: common: created directory at: artifacts]
+[2023-10-08 18:09:47,706: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 18:12:32,659: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 18:12:32,662: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:12:32,662: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:12:32,667: INFO: common: created directory at: artifacts]
+[2023-10-08 18:12:32,668: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 18:12:39,675: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7A7A:1AC5A5:113A45:12D50C:6522A3BB
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 12:42:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4747-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696768956.610259,VS0,VE969
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 360266847046f76772ad070602a3569f47f6ff7b
+Expires: Sun, 08 Oct 2023 12:47:36 GMT
+Source-Age: 1
+
+]
+[2023-10-08 18:12:40,198: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-08 18:12:40,199: INFO: main: *******************]
+[2023-10-08 18:12:40,200: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-08 18:12:40,202: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:12:40,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:12:40,218: INFO: common: created directory at: artifacts]
+[2023-10-08 18:12:40,220: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-08 18:12:41,025: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-08 18:12:41,392: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-08 18:12:41,393: INFO: main: *******************]
+[2023-10-08 18:12:41,395: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-08 18:12:41,403: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:12:41,403: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:12:41,403: INFO: common: created directory at: artifacts]
+[2023-10-08 18:12:41,415: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 18:12:41,415: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 18:12:41,415: INFO: common: created directory at: artifacts\training]
+[2023-10-08 18:15:05,366: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-10-08 18:19:42,630: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:19:42,639: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:19:42,641: INFO: common: created directory at: artifacts]
+[2023-10-08 18:20:13,203: INFO: common: json file saved at: scores.json]
+[2023-10-08 18:24:50,733: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 18:24:50,745: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:24:50,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:24:50,747: INFO: common: created directory at: artifacts]
+[2023-10-08 18:24:50,752: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 18:24:59,141: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7A7A:1AC5A5:113A45:12D50C:6522A3BB
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 12:54:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4751-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696769695.245760,VS0,VE347
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 89bc0846b480e78fc72d37d5cfccdcab16aafb04
+Expires: Sun, 08 Oct 2023 12:59:55 GMT
+Source-Age: 0
+
+]
+[2023-10-08 18:24:59,637: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-08 18:24:59,638: INFO: main: *******************]
+[2023-10-08 18:24:59,639: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-08 18:24:59,641: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:24:59,646: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:24:59,650: INFO: common: created directory at: artifacts]
+[2023-10-08 18:24:59,651: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-08 18:25:00,460: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-08 18:25:00,814: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-08 18:25:00,815: INFO: main: *******************]
+[2023-10-08 18:25:00,815: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-08 18:25:00,820: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:25:00,824: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:25:00,825: INFO: common: created directory at: artifacts]
+[2023-10-08 18:25:00,831: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 18:25:00,834: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 18:25:00,838: INFO: common: created directory at: artifacts\training]
+[2023-10-08 18:26:34,468: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-10-08 18:26:34,476: INFO: main: *******************]
+[2023-10-08 18:26:34,477: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-10-08 18:26:34,489: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:26:34,491: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:26:34,495: INFO: common: created directory at: artifacts]
+[2023-10-08 18:27:05,090: INFO: common: json file saved at: scores.json]
+[2023-10-08 18:27:05,090: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-10-08 18:32:55,181: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 18:32:55,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 18:32:55,189: INFO: common: created directory at: artifacts]
+[2023-10-08 18:32:55,191: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 18:32:55,193: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 18:32:55,210: INFO: common: created directory at: artifacts\training]
+[2023-10-08 19:16:01,353: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 19:16:01,353: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 19:16:01,376: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 19:16:01,376: INFO: common: created directory at: artifacts]
+[2023-10-08 19:16:01,376: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 19:16:08,283: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7A7A:1AC5A5:113A45:12D50C:6522A3BB
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 13:46:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4732-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696772765.878099,VS0,VE251
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: db620d69ce3a0e418eab284de2a349cbbefdd0ce
+Expires: Sun, 08 Oct 2023 13:51:05 GMT
+Source-Age: 0
+
+]
+[2023-10-08 19:16:08,752: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-08 19:16:08,752: INFO: main: *******************]
+[2023-10-08 19:16:08,752: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-08 19:16:08,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 19:16:08,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 19:16:08,771: INFO: common: created directory at: artifacts]
+[2023-10-08 19:16:08,773: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-08 19:16:09,498: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-08 19:16:09,930: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-08 19:16:09,931: INFO: main: *******************]
+[2023-10-08 19:16:09,932: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-08 19:16:09,935: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 19:16:09,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 19:16:09,939: INFO: common: created directory at: artifacts]
+[2023-10-08 19:16:09,940: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 19:16:09,943: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 19:16:09,946: INFO: common: created directory at: artifacts\training]
+[2023-10-08 19:39:38,284: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-10-08 19:39:38,284: INFO: main: *******************]
+[2023-10-08 19:39:38,284: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-10-08 19:39:38,284: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 19:39:38,299: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 19:39:38,300: INFO: common: created directory at: artifacts]
+[2023-10-08 19:40:09,611: INFO: common: json file saved at: scores.json]
+[2023-10-08 19:40:09,611: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-10-08 22:56:38,905: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 22:56:38,920: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 22:56:38,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 22:56:38,920: INFO: common: created directory at: artifacts]
+[2023-10-08 22:56:38,920: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 22:57:21,571: ERROR: stage_01_data_ingestion: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>]
+Traceback (most recent call last):
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 1418, in connect
+    super().connect()
+  File "C:\Users\DELL\.conda\envs\chicken\lib\http\client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\DELL\.conda\envs\chicken\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\DELL\.conda\envs\chicken\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 29, in <module>
+    obj.main()
+  File "src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\dell\documents\data science\projects\chicken_disease_classification\src\cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\DELL\.conda\envs\chicken\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[2023-10-08 22:58:06,572: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-08 22:58:06,576: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 22:58:06,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 22:58:06,580: INFO: common: created directory at: artifacts]
+[2023-10-08 22:58:06,581: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 22:58:13,397: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8CC4:30585D:281822:32261D:6522E6A9
+Accept-Ranges: bytes
+Date: Sun, 08 Oct 2023 17:28:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1243-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696786089.401554,VS0,VE1061
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7b53bb2334d87aef6e2c58ee47d801f25e1a4d32
+Expires: Sun, 08 Oct 2023 17:33:10 GMT
+Source-Age: 1
+
+]
+[2023-10-08 22:58:13,960: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-08 22:58:25,530: INFO: stage_02_prepare_base_model: *******************]
+[2023-10-08 22:58:25,530: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-08 22:58:25,530: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 22:58:25,530: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 22:58:25,530: INFO: common: created directory at: artifacts]
+[2023-10-08 22:58:25,543: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-08 22:58:26,110: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-08 22:58:26,467: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-08 22:58:33,338: INFO: stage_03_training: *******************]
+[2023-10-08 22:58:33,338: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2023-10-08 22:58:33,342: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 22:58:33,345: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 22:58:33,345: INFO: common: created directory at: artifacts]
+[2023-10-08 22:58:33,346: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-08 22:58:33,347: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-08 22:58:33,350: INFO: common: created directory at: artifacts\training]
+[2023-10-08 23:21:51,008: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-10-08 23:21:57,347: INFO: stage_04_evaluation: *******************]
+[2023-10-08 23:21:57,347: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-10-08 23:21:57,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 23:21:57,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 23:21:57,357: INFO: common: created directory at: artifacts]
+[2023-10-08 23:22:27,548: INFO: common: json file saved at: scores.json]
+[2023-10-08 23:22:27,548: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-10-08 23:30:06,143: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.99.91.18:80]
+[2023-10-08 23:30:06,143: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-08 23:31:01,528: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:31:01] "GET / HTTP/1.1" 200 -]
+[2023-10-08 23:31:13,909: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:31:13] "POST /predict HTTP/1.1" 200 -]
+[2023-10-08 23:31:24,956: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:31:24] "POST /predict HTTP/1.1" 200 -]
+[2023-10-08 23:31:35,120: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:31:35] "POST /predict HTTP/1.1" 200 -]
+[2023-10-08 23:31:42,834: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:31:42] "POST /predict HTTP/1.1" 200 -]
+[2023-10-08 23:32:19,092: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000222014C8EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2023-10-08 23:32:19,092: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:32:19] "POST /predict HTTP/1.1" 200 -]
+[2023-10-08 23:35:51,358: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002220129A280> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2023-10-08 23:35:51,358: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:35:51] "POST /predict HTTP/1.1" 200 -]

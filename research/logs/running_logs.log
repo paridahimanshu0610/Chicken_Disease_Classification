@@ -1,0 +1,8 @@
+[2023-10-08 14:39:54,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 14:39:54,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 14:39:54,483: INFO: common: created directory at: artifacts]
+[2023-10-08 14:39:54,486: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-08 14:40:45,486: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-08 14:40:45,493: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-08 14:40:45,496: INFO: common: created directory at: artifacts]
+[2023-10-08 14:40:45,498: INFO: common: created directory at: artifacts/data_ingestion]
