@@ -1,6 +1,5 @@
 artifacts
 artifacts1
-src\cnnClassifier\__pycache__
 src\cnnClassifier\components\__pycache__
 src\cnnClassifier\config\__pycache__
 src\cnnClassifier\constants\__pycache__
