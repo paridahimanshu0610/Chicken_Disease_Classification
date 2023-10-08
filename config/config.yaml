@@ -1,9 +1,9 @@
 artifacts_root: artifacts
 
-
+# https://github.com/entbappy/Branching-tutorial/raw/master/Chicken-fecal-images.zip
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/Chicken-fecal-images.zip
+  source_URL: https://github.com/paridahimanshu0610/Data_Files/raw/master/Chicken-fecal-images.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
