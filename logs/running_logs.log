@@ -694,3 +694,68 @@ x==========x]
 [2023-10-08 23:32:19,092: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:32:19] "POST /predict HTTP/1.1" 200 -]
 [2023-10-08 23:35:51,358: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002220129A280> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
 [2023-10-08 23:35:51,358: INFO: _internal: 127.0.0.1 - - [08/Oct/2023 23:35:51] "POST /predict HTTP/1.1" 200 -]
+[2023-10-09 13:40:51,359: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-09 13:40:51,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-09 13:40:51,368: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-09 13:40:51,369: INFO: common: created directory at: artifacts]
+[2023-10-09 13:40:51,370: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-09 13:40:58,874: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11605269
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "caf871900a465f4b6c655196f31f70db9c75895618240782e892cca0755f2cac"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 526A:13DFD6:E1AD2:1A6D2F:6523ADEA
+Accept-Ranges: bytes
+Date: Mon, 09 Oct 2023 08:10:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4720-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1696839056.202856,VS0,VE354
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 775cd94026e670a0514864f9be8b6afaf64558b6
+Expires: Mon, 09 Oct 2023 08:15:56 GMT
+Source-Age: 0
+
+]
+[2023-10-09 13:40:59,405: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-09 13:40:59,406: INFO: main: *******************]
+[2023-10-09 13:40:59,406: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-09 13:40:59,408: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-09 13:40:59,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-09 13:40:59,419: INFO: common: created directory at: artifacts]
+[2023-10-09 13:40:59,420: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-09 13:41:00,285: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-09 13:41:00,606: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-09 13:41:00,607: INFO: main: *******************]
+[2023-10-09 13:41:00,608: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-09 13:41:00,610: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-09 13:41:00,615: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-09 13:41:00,616: INFO: common: created directory at: artifacts]
+[2023-10-09 13:41:00,631: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-09 13:41:00,634: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-09 13:41:00,637: INFO: common: created directory at: artifacts\training]
+[2023-10-09 14:04:08,383: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-10-09 14:04:08,384: INFO: main: *******************]
+[2023-10-09 14:04:08,384: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-10-09 14:04:08,387: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-09 14:04:08,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-09 14:04:08,397: INFO: common: created directory at: artifacts]
+[2023-10-09 14:04:38,336: INFO: common: json file saved at: scores.json]
+[2023-10-09 14:04:38,337: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
