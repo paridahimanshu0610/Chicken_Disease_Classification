@@ -14,4 +14,17 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
+
+# Install the current project in editable mode
 -e .
+# During development, you can run:
+
+# pip install -r requirements.txt
+
+# This installs the project along with its dependencies in editable mode. 
+# Any changes made to the project source code are immediately reflected 
+# when you run your Python scripts without requiring a manual reinstall.
+
+# Keep in mind that using -e . in requirements.txt is typically more applicable 
+# to development environments. For production deployments, it's more common to 
+# create a distributable package and install it without using editable mode.
