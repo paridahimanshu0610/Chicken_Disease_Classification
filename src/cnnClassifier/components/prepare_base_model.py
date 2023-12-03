@@ -21,15 +21,18 @@ class PrepareBaseModel:
         self.save_model(path=self.config.base_model_path, model=self.model)
 
 
-    
+# So, in summary, the _prepare_full_model method takes a pre-trained model, 
+# adds an inner layer (the flattened layer), and then adds an output layer 
+# (with softmax activation) to create a new model that can be used for 
+# classification freeze_till is from right.    
     @staticmethod
     def _prepare_full_model(model, classes, freeze_all, freeze_till, learning_rate):
         if freeze_all:
             for layer in model.layers:
-                model.trainable = False
+                layer.trainable = False
         elif (freeze_till is not None) and (freeze_till > 0):
             for layer in model.layers[:-freeze_till]:
-                model.trainable = False
+                layer.trainable = False
 
         flatten_in = tf.keras.layers.Flatten()(model.output)
         prediction = tf.keras.layers.Dense(
@@ -42,10 +45,19 @@ class PrepareBaseModel:
             outputs=prediction
         )
 
+        # full_model = tf.keras.Sequential([
+        #         model,
+        #         tf.keras.layers.Flatten(),
+        #         tf.keras.layers.Dense(units=1000, activation='relu'),
+        #         tf.keras.layers.Dense(units=1000, activation='relu'),
+        #         tf.keras.layers.Dense(units=classes, activation='softmax')
+        #     ])
+
         full_model.compile(
             optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
             loss=tf.keras.losses.CategoricalCrossentropy(),
-            metrics=["accuracy"]
+            metrics=["accuracy", tf.keras.metrics.Precision(), tf.keras.metrics.Recall(), 
+                    tf.keras.metrics.AUC()]
         )
 
         full_model.summary()
@@ -66,8 +78,4 @@ class PrepareBaseModel:
     
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(path)
-
-    
-
-
+        model.save(path)  

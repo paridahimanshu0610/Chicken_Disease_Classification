@@ -32,7 +32,9 @@ class ConfigurationManager:
             root_dir=config.root_dir,
             source_URL=config.source_URL,
             local_data_file=config.local_data_file,
-            unzip_dir=config.unzip_dir 
+            unzip_dir=config.unzip_dir,
+            train_data_dir=config.train_data_dir,
+            test_data_dir=config.test_data_dir
         )
 
         return data_ingestion_config
@@ -82,7 +84,7 @@ class ConfigurationManager:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
         params = self.params
-        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Chicken-fecal-images")
+        training_data = os.path.join(self.config.data_ingestion.train_data_dir)
         create_directories([
             Path(training.root_dir)
         ])
@@ -103,14 +105,15 @@ class ConfigurationManager:
 
 
 
-    def get_validation_config(self) -> EvaluationConfig:
+    def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
-            path_of_model=Path("artifacts/training/model.h5"),
-            training_data=Path("artifacts/data_ingestion/Chicken-fecal-images"),
+            path_of_model=self.config.training.trained_model_path,
+            test_data=self.config.data_ingestion.test_data_dir,
             all_params=self.params,
             params_image_size=self.params.IMAGE_SIZE,
             params_batch_size=self.params.BATCH_SIZE
         )
         return eval_config
+
 
       

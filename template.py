@@ -2,6 +2,9 @@ import os
 from pathlib import Path
 import logging
 
+# Only Warning, Error and Critical log messages will be logged.
+# These log levels have severity above the INFO level.
+# Severity in increasing order: DEBUG, INFO, WARN, ERROR, CRITICAL
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 

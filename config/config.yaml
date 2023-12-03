@@ -1,11 +1,14 @@
 artifacts_root: artifacts
 
 # https://github.com/entbappy/Branching-tutorial/raw/master/Chicken-fecal-images.zip
+# https://github.com/paridahimanshu0610/Data_Files/raw/master/Chicken-fecal-images
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/paridahimanshu0610/Data_Files/raw/master/Chicken-fecal-images.zip
+  source_URL: https://drive.google.com/file/d/17mHmD_yry_eGyxpEOz4HMABpmnx6f6J_/view?usp=drive_link
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+  train_data_dir: artifacts/data_ingestion/train_data 
+  test_data_dir: artifacts/data_ingestion/test_data
 
 
 
@@ -21,7 +24,8 @@ prepare_callbacks:
   root_dir: artifacts/prepare_callbacks
   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5 
-  # After training some epochs, the model would b saved as checkpoints
+  # After training some epochs, the best model (least validation loss) 
+  # would be saved as checkpoints.
   # So, if we want to resume the training it will start from that point
 
 

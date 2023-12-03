@@ -1,7 +1,9 @@
 tensorflow
+scikit-learn
 pandas 
 dvc
 notebook
+gdown # Library to download large files from Google Drive
 numpy
 matplotlib
 seaborn

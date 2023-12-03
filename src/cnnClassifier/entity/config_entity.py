@@ -8,6 +8,8 @@ class DataIngestionConfig:
     source_URL: str
     local_data_file: Path
     unzip_dir: Path
+    train_data_dir: Path
+    test_data_dir: Path
 
 
 @dataclass(frozen=True)
@@ -47,7 +49,7 @@ class TrainingConfig:
 @dataclass(frozen=True)
 class EvaluationConfig:
     path_of_model: Path
-    training_data: Path
+    test_data: Path
     all_params: dict
     params_image_size: list
     params_batch_size: int
