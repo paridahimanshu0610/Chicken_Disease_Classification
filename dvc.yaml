@@ -5,7 +5,8 @@ stages:
       - src/cnnClassifier/pipeline/stage_01_data_ingestion.py
       - config/config.yaml
     outs:
-      - artifacts/data_ingestion/Chicken-fecal-images
+      - artifacts/data_ingestion/train_data
+      - artifacts/data_ingestion/test_data
 
 
   prepare_base_model:
@@ -13,6 +14,7 @@ stages:
     deps:
       - src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
       - config/config.yaml
+      - params.yaml
     params:
       - IMAGE_SIZE
       - INCLUDE_TOP
@@ -30,8 +32,9 @@ stages:
       - src/cnnClassifier/pipeline/stage_03_training.py
       - src/cnnClassifier/components/prepare_callbacks.py
       - config/config.yaml
-      - artifacts/data_ingestion/Chicken-fecal-images
+      - artifacts/data_ingestion/train_data
       - artifacts/prepare_base_model
+      - params.yaml
     params:
       - IMAGE_SIZE
       - EPOCHS
@@ -48,8 +51,9 @@ stages:
     deps:
       - src/cnnClassifier/pipeline/stage_04_evaluation.py
       - config/config.yaml
-      - artifacts/data_ingestion/Chicken-fecal-images
+      - artifacts/data_ingestion/test_data
       - artifacts/training/model.h5
+      - params.yaml
     params:
       - IMAGE_SIZE
       - BATCH_SIZE
